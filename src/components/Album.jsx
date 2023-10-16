@@ -1,17 +1,18 @@
 import React from "react";
 import { CoverImage } from "./CoverImage";
 import { AlbumName } from "./AlbumName";
-import data from "../data.json";
 
-export function Album() {
+export function Album({ albums }) {
   return (
     <>
-      <AlbumName
-        name={data.albums.items.map((info) =>
-          info.artists.map((artist) => artist.name)
-        )}
-      />
-      <CoverImage />
+      <div className="albums">
+        {albums.map((album) => (
+          <>
+            <AlbumName key={album.id} name={album.name} />
+            <CoverImage src={album.images[0].url} alt={album.name} />
+          </>
+        ))}
+      </div>
     </>
   );
 }
