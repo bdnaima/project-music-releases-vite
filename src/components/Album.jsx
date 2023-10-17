@@ -6,7 +6,7 @@ import "../styles/Album.css"
 
 export function Album({ albums }) {
   return (
-    <div className="album-grid">
+    <div className="album-grid d-flex">
         {albums.map((album) => (
            <div className="albums" key={album.id}>
             <CoverImage src={album.images[0].url} alt={album.name} />
@@ -15,6 +15,7 @@ export function Album({ albums }) {
             </div>
         ))}
      
+
     </div>
   );
 }

@@ -1,8 +1,8 @@
-import data from "../data.json";
 import heartIcon from "../assets/icons/heart.svg";
 import playIcon from "../assets/icons/play.svg";
 import dotsIcon from "../assets/icons/dots.svg";
 import "../styles/CoverImage.css";
+
 
 export function CoverImage(props) {
   return (
