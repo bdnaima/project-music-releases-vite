@@ -1,10 +1,17 @@
 .album-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Create 4 columns in one row  for desktop*/
-    grid-gap: 10px; 
-  }
-  
-  .album {
-    text-align: center; 
-   
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.album {
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
