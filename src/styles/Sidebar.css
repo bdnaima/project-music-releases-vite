@@ -1,0 +1,21 @@
+.sidebar-playlist {
+  background-color: #121212;
+  margin: 1rem;
+  padding: 1rem;
+  min-width: 16%;
+}
+
+.sidebar-playlist img {
+  max-width: 4rem;
+}
+
+.sidebar-playlist h2 {
+  padding-left: 1rem;
+}
+
+.playlist {
+  display: flex;
+}
+.playlist img {
+  margin: 1rem;
+}
