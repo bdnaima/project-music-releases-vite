@@ -12,6 +12,7 @@ export function CoverImage(props) {
         <img src={playIcon} alt="play-icon" className="icons"></img>
         <img src={dotsIcon} alt="dots-icon" className="icons"></img>
       </div>
+
     </div>
   );
 }

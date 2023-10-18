@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/AlbumName.css"
 
 export function AlbumName(props) {
   return (
