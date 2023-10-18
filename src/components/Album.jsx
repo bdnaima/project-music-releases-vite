@@ -13,8 +13,20 @@ export function Album({ albums }) {
       {albums.map((album) => (
         <div className="albums" key={album.id}>
           <CoverImage src={album.images[0].url} alt={album.name} />
-          <AlbumName name={album.name} className="album-item"/>
-          <ArtistName name={album.artists[0].name} className="album-item" />
+          <a
+            href={album.external_urls.spotify}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AlbumName name={album.name} className="album-item" />
+          </a>
+          <a
+            href={album.artists[0].external_urls.spotify}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ArtistName name={album.artists[0].name} className="album-item" />
+          </a>
         </div>
       ))}
     </div>
