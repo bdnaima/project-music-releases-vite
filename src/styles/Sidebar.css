@@ -2,20 +2,42 @@
   background-color: #121212;
   margin: 1rem;
   padding: 1rem;
-  min-width: 16%;
+  min-width: 21%;
 }
 
 .sidebar-playlist img {
   max-width: 4rem;
 }
-
-.sidebar-playlist h2 {
-  padding-left: 1rem;
+.playlist h4 {
+  display: none;
 }
 
 .playlist {
   display: flex;
 }
+
 .playlist img {
   margin: 1rem;
+}
+.playlist:hover {
+  cursor: pointer;
+  background-color: #242424;
+}
+
+@media (min-width: 667px) {
+  .playlist h4 {
+    display: block;
+  }
+}
+@media (min-width: 1025px) {
+  .sidebar-playlist h2 {
+    padding-left: 1rem;
+  }
+  .playlist {
+    margin: 1rem;
+  }
+
+  .playlist h4 {
+    display: block;
+  }
 }
