@@ -25,21 +25,7 @@ export function Album({ albums }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ArtistName
-                name={album.artists.map((artistName, index, array) => {
-                  if (array.length === 1) {
-                    return artistName.name;
-                  } else if (array.length === 2) {
-                    return index === 0 ? `${artistName.name} & ` : artistName.name;
-                  } else if (index === array.length - 1) {
-                    return ` & ${artistName.name}`;
-                  } else if (index === array.length - 2) {
-                    return `${artistName.name}, `;
-                  } else {
-                    return artistName.name;
-                  }
-                })}
-              />
+              <ArtistName artists={album.artists} className="album-item" />
             </a>
           </div>
         ))}
