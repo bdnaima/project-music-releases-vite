@@ -2,14 +2,19 @@
   background-color: #121212;
   margin: 1rem;
   padding: 1rem;
-  min-width: 21%;
+  min-width: 20%;
 }
 
 .sidebar-playlist img {
   max-width: 4rem;
 }
+.sidebar-playlist h2 {
+  margin: 1rem;
+}
+
 .playlist h4 {
   display: none;
+  align-self: center;
 }
 
 .playlist {
@@ -24,19 +29,17 @@
   background-color: #242424;
 }
 
-@media (min-width: 667px) {
-  .playlist h4 {
-    display: block;
+@media (min-width: 768px) and (max-width: 1800px) {
+  .sidebar-playlist {
+    min-width: 21%;
   }
-}
-@media (min-width: 1025px) {
   .sidebar-playlist h2 {
     padding-left: 1rem;
   }
+
   .playlist {
     margin: 1rem;
   }
-
   .playlist h4 {
     display: block;
   }
