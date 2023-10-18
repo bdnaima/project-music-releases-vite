@@ -2,12 +2,41 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  max-width: 80%;
-  margin: auto;
+}
+
+.album-grid::after {
+  content: "";
+  flex: 0 45%;
 }
 
 .album {
   text-align: center;
+}
+
+.albumName h2 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.albumName h2:hover {
+  text-decoration: underline;
+  color: #fff;
+  font-size: 14px;
+}
+
+.artistName h3 {
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
+.artistName h3:hover {
+  text-decoration: underline;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {

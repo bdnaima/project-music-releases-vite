@@ -2,10 +2,8 @@ import React from "react";
 
 export function ArtistName(props) {
   return (
-    <div>
-      <ul>
-        <li>{props.name}</li>
-      </ul>
+    <div className="artistName">
+      <h3>{props.name}</h3>
     </div>
   );
 }
