@@ -1,13 +1,12 @@
 .image-container {
   position: relative;
-  width: 50%;
 }
 
 img {
   opacity: 1;
-  width: 18rem;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  width: 100%;
 }
 
 .icons-container {
@@ -18,9 +17,7 @@ img {
   opacity: 1;
   position: absolute;
   top: 50%;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  width: 100%;
   text-align: center;
 }
 

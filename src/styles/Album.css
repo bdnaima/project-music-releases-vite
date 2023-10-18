@@ -1,12 +1,7 @@
 .album-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.album-grid::after {
-  content: "";
-  flex: 0 45%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
 }
 
 .album {
@@ -15,4 +10,15 @@
 
 a {
   text-decoration: none;
+}
+
+@media (min-width: 667px) {
+  .album-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1025px) {
+  .album-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
