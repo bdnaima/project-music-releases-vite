@@ -9,12 +9,25 @@ img {
   width: 100%;
 }
 
+#heart-highlight {
+  opacity: 1;
+}
+#play-highlight {
+  opacity: 0.3;
+}
+#play-highlight:hover {
+  opacity: 1.3;
+}
+#elipsis-highlight {
+  opacity: 1;
+}
+
 .icons-container {
   display: flex;
   justify-content: center;
   gap: 30px;
   transition: 0.5s ease;
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   top: 50%;
   width: 100%;
@@ -30,6 +43,7 @@ img {
 .icons {
   width: 30px;
 }
+
 .icons:hover {
   cursor: pointer;
   transform: scale(1.5);
