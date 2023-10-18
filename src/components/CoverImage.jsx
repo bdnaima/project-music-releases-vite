@@ -8,11 +8,25 @@ export function CoverImage(props) {
     <div className="image-container">
       <img src={props.src} alt={props.alt} />
       <div className="icons-container">
-        <img src={heartIcon} alt="heart-icon" className="icons"></img>
-        <img src={playIcon} alt="play-icon" className="icons"></img>
-        <img src={dotsIcon} alt="dots-icon" className="icons"></img>
+        <img
+          src={heartIcon}
+          alt="heart-icon"
+          id="heart-highlight"
+          className="icons icon-highlight"
+        ></img>
+        <img
+          src={playIcon}
+          alt="play-icon"
+          id="play-highlight"
+          className="icons icon-highlight"
+        ></img>
+        <img
+          src={dotsIcon}
+          alt="dots-icon"
+          id="elipsis-highlight"
+          className="icons icon-highlight"
+        ></img>
       </div>
-
     </div>
   );
 }
