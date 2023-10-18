@@ -1,5 +1,11 @@
-.artist-name {
+.artist-name h3 {
   color: #a0a0a0;
   font-family: Helvetica;
+  font-size: 14px;
+}
+
+.artist-name h3:hover {
+  text-decoration: underline;
+  color: #a0a0a0;
   font-size: 14px;
 }

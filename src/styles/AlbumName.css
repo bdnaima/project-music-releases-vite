@@ -1,5 +1,11 @@
-.album-name {
-  color: #ffff;
+.album-name h2 {
+  color: #fff;
   font-family: Helvetica;
+  font-size: 14px;
+}
+
+.album-name h2:hover {
+  text-decoration: underline;
+  color: #fff;
   font-size: 14px;
 }

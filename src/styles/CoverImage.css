@@ -13,7 +13,7 @@ img {
 .icons-container {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 30px;
   transition: 0.5s ease;
   opacity: 1;
   position: absolute;
