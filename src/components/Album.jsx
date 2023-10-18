@@ -26,17 +26,17 @@ export function Album({ albums }) {
               rel="noopener noreferrer"
             >
               <ArtistName
-                name={album.artists.map((aName, index, array) => {
+                name={album.artists.map((artistName, index, array) => {
                   if (array.length === 1) {
-                    return aName.name;
+                    return artistName.name;
                   } else if (array.length === 2) {
-                    return index === 0 ? `${aName.name} & ` : aName.name;
+                    return index === 0 ? `${artistName.name} & ` : artistName.name;
                   } else if (index === array.length - 1) {
-                    return ` & ${aName.name}`;
+                    return ` & ${artistName.name}`;
                   } else if (index === array.length - 2) {
-                    return `${aName.name}, `;
+                    return `${artistName.name}, `;
                   } else {
-                    return aName.name;
+                    return artistName.name;
                   }
                 })}
               />
