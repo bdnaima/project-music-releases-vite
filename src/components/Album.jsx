@@ -10,7 +10,7 @@ export function Album({ albums }) {
       {albums.map((album) => (
         <div className="albums" key={album.id}>
           <CoverImage src={album.images[0].url} alt={album.name} />
-          <AlbumName name={album.name} className="album-item" />
+          <AlbumName name={album.name} className="album-item"/>
           <ArtistName name={album.artists[0].name} className="album-item" />
         </div>
       ))}
