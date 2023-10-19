@@ -42,9 +42,16 @@ a {
   text-decoration: none;
 }
 
+.sub-heading{
+  margin-left: 40px;
+}
+
 @media (min-width: 667px) {
   .album-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .sub-heading{
+    margin-left: 40px;
   }
 }
 @media (min-width: 1025px) {
