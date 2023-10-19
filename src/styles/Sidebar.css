@@ -1,6 +1,7 @@
 .sidebar-playlist {
   background-color: #121212;
-  margin: 1rem;
+  border-radius: 20px;
+  margin: 1.5rem;
   padding: 1rem;
   min-width: 28%;
   height: 74rem;
