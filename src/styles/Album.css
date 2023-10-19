@@ -2,15 +2,19 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 25px;
+  margin: 2rem;
 }
 
 .album {
-  text-align: center;
+  margin: 10px;
+}
+
+.album-sidebar-container {
+  display: flex;
 }
 
 a {
   text-decoration: none;
- 
 }
 
 @media (min-width: 667px) {
