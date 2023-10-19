@@ -44,7 +44,9 @@ export function Album({ albums }) {
       <div className="album-sidebar-container">
         <Sidebar />
         <div className="scrollable-grid">
-          <h2 className="sub-heading">Singles</h2>
+          <h2 className="sub-heading" id="singles-heading">
+            Singles
+          </h2>
           {renderAlbums(singleAlbums)}
           <h2 className="sub-heading">New Albums</h2>
           {renderAlbums(newAlbums)}

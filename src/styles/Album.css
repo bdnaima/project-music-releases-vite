@@ -7,27 +7,26 @@
 
 .scrollable-grid {
   overflow-y: hidden;
-  height: 100vh; 
+  height: 100vh;
   margin-top: 27px;
-  
+  background-color: #121212;
+  border-radius: 20px;
 }
 .scrollable-grid:hover {
   overflow-y: scroll;
-  
 }
 /* Style the scroll bar */
 .scrollable-grid::-webkit-scrollbar {
-  width: 8px; 
+  width: 8px;
 }
 
 .scrollable-grid::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 .scrollable-grid::-webkit-scrollbar-track {
   background: #ffff;
 }
-
 
 .album {
   margin: 10px;
@@ -42,15 +41,18 @@ a {
   text-decoration: none;
 }
 
-.sub-heading{
-  margin-left: 40px;
+.sub-heading {
+  margin-left: 45px;
+}
+#singles-heading {
+  padding-top: 10px;
 }
 
 @media (min-width: 667px) {
   .album-grid {
     grid-template-columns: 1fr 1fr;
   }
-  .sub-heading{
+  .sub-heading {
     margin-left: 40px;
   }
 }
