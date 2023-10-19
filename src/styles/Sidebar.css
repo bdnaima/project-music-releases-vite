@@ -2,7 +2,8 @@
   background-color: #121212;
   margin: 1rem;
   padding: 1rem;
-  min-width: 20%;
+  min-width: 28%;
+  height: 74rem;
 }
 
 .sidebar-playlist img {
@@ -14,7 +15,8 @@
 
 .playlist h4 {
   display: none;
-  align-self: center;
+  font-family: Helvetica;
+  font-size: 14px;
 }
 
 .playlist {
@@ -27,6 +29,11 @@
 .playlist:hover {
   cursor: pointer;
   background-color: #242424;
+}
+
+.playlist a {
+  color: #fff;
+  align-self: center;
 }
 
 @media (min-width: 768px) and (max-width: 1800px) {
@@ -42,5 +49,11 @@
   }
   .playlist h4 {
     display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .playlist h4 {
+    display: none;
   }
 }

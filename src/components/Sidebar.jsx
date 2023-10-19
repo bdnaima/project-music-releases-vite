@@ -12,8 +12,20 @@ export function Sidebar() {
       <h2>Playlists</h2>
       {playlists.map((playlist) => (
         <div className="playlist">
-          <PlaylistImage src={playlist.images[0].url} alt={playlist.name} />
-          <PlaylistName key={playlist.name} name={playlist.name} />
+          <a
+            href={playlist.external_urls.spotify}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <PlaylistImage src={playlist.images[0].url} alt={playlist.name} />
+          </a>
+          <a
+            href={playlist.external_urls.spotify}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <PlaylistName key={playlist.name} name={playlist.name} />
+          </a>
         </div>
       ))}
     </div>
