@@ -12,7 +12,7 @@ export function Album({ albums }) {
       <Header />
       <div className="album-sidebar-container">
         <Sidebar />
-        <div className="album-grid">
+        <div className="album-grid scrollable-grid">
           {albums.map((album) => (
             <div className="album" key={album.id}>
               <CoverImage src={album.images[0].url} alt={album.name} />
