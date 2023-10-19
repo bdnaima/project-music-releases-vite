@@ -31,4 +31,4 @@ If we had more time:- we could have create a popup that would show the album whe
 
 ### View it live 🚀
 
-wwww.....
+https://music-app-by-naima-and-priya.netlify.app/ 
