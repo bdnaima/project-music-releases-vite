@@ -473,9 +473,6 @@
             "name": "Caroline Polachek",
             "type": "artist",
             "uri": "spotify:artist:4Ge8xMJNwt6EEXOzVXju9a"
-          },
-          {
-            "name": "Annamarie"
           }
         ],
         "available_markets": [
@@ -7776,7 +7773,7 @@
             },
             "href": "https://api.spotify.com/v1/artists/1GVuCyb4PlArufUZDUnRQi",
             "id": "1GVuCyb4PlArufUZDUnRQi",
-            "name": "southstar",
+            "name": "Southstar",
             "type": "artist",
             "uri": "spotify:artist:1GVuCyb4PlArufUZDUnRQi"
           }
@@ -8469,9 +8466,6 @@
             "name": "Leah Kate",
             "type": "artist",
             "uri": "spotify:artist:6oWOHAOyBUn6aJlKIPJK9r"
-          },
-          {
-            "name": "Yarn"
           }
         ],
         "available_markets": [
