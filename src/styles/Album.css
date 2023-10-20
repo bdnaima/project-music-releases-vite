@@ -6,15 +6,12 @@
 }
 
 .scrollable-grid {
-  overflow-y: hidden;
   height: 100vh;
   margin-top: 27px;
   background-color: #121212;
   border-radius: 20px;
 }
-.scrollable-grid:hover {
-  overflow-y: scroll;
-}
+
 /* Style the scroll bar */
 .scrollable-grid::-webkit-scrollbar {
   width: 8px;
