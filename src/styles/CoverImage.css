@@ -45,3 +45,19 @@ img {
   cursor: pointer;
   transform: scale(1.5);
 }
+
+@media (max-width: 375px){
+  #elipsis-highlight {
+    margin-right: 2%;
+  }
+  #heart-highlight{
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 700px){
+  
+  .icons {
+    width: 20px;
+  }
+}
