@@ -5,24 +5,11 @@
   margin: 2rem;
 }
 
-.scrollable-grid {
-  height: 100vh;
-  margin-top: 27px;
+.side-grid {
   background-color: #121212;
+  margin-top: 27px;
   border-radius: 20px;
-}
-
-/* Style the scroll bar */
-.scrollable-grid::-webkit-scrollbar {
-  width: 8px;
-}
-
-.scrollable-grid::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-.scrollable-grid::-webkit-scrollbar-track {
-  background: #ffff;
+  height: fit-content;
 }
 
 .album {
